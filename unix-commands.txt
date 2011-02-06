@@ -1,0 +1,5 @@
+// show disk usage
+df
+
+// add existing user to existing group
+usermod -g groupname username
