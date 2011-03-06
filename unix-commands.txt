@@ -3,3 +3,21 @@ df
 
 // add existing user to existing group
 usermod -g groupname username
+
+// restart cron service on ubuntu
+/etc/init.d/cron restart
+
+// enable a site
+a2ensite site.com
+
+//
+adduser username
+
+// Add Existing User To A Primary Group
+usermod -g group username
+
+// where is sudo list 
+/etc/sudoers
+
+// search for 'whatever' under this directory recursively
+find . | xargs grep whatever

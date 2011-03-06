@@ -1,0 +1,12 @@
+// apply box shadow
+.box-shadow {
+  -moz-box-shadow: 10px 10px 5px #888;
+  -webkit-box-shadow: 10px 10px 5px #888;
+  box-shadow: 10px 10px 5px #888;
+}
+
+// ie5/6 doubled float-margin bug
+.left {
+  float: left;
+  display: inline-block;
+}
