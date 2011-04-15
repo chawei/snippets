@@ -21,3 +21,6 @@ usermod -g group username
 
 // search for 'whatever' under this directory recursively
 find . | xargs grep whatever
+
+// Enabling module headers
+root@:/etc/apache2# a2enmod headers
